@@ -320,6 +320,7 @@ p {
 }
 .team-list-socials {
 	display: flex;
+	justify-content: center;
 }
 
 .socials-item-link {
