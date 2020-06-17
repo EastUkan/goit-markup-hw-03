@@ -267,6 +267,9 @@ p {
 }
 
 .services-list-title {
+	padding-top: 27px;
+	padding-bottom: 27px;
+
 	font-weight: 700;
 	font-size: 14px;
 	text-transform: uppercase;
@@ -367,16 +370,18 @@ p {
 
 .footer {
 	background: #2f303a;
-}
-.footer-box {
-	display: flex;
+	padding-top: 45px;
 }
 .footer-address-conteiner {
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
 }
+
 /* лого */
 
 .logo-footer {
-	margin-top: 45px;
+	/* margin-top: 45px; */
 	margin-bottom: 8px;
 }
 
@@ -384,6 +389,9 @@ p {
 	color: var(--primary-white-color);
 }
 /* адресс */
+.footer-address {
+	padding-bottom: 28px;
+}
 .footer-address-list > li:not(:last-child) {
 	margin-bottom: 9px;
 }
@@ -408,13 +416,7 @@ p {
 }
 /* социальные сети */
 
-.footer-social-conteiner {
-	margin-left: 69px;
-}
-
 .footer-social-title {
-	padding-top: 57px;
-
 	font-weight: bold;
 	font-size: 14px;
 	line-height: 1.14;
@@ -439,15 +441,13 @@ p {
 	background-color: var(--accent-color);
 }
 
-.footer-developed-conteiner {
-	display: flex;
-	justify-content: center;
-	align-items: flex-end;
-}
+.footer-copyright-text {
+	text-align: center;
+	padding-top: 21px;
+	padding-bottom: 18px;
+	border-top: 1px solid rgba(255, 255, 255, 0.1);
 
-.footer-developed-conteiner-text {
 	font-size: 12px;
-
 	line-height: 2;
 	color: rgba(255, 255, 255, 0.4);
 }
